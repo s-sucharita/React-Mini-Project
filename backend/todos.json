@@ -1,0 +1,26 @@
+[
+  {
+    "id": "6096d331-475c-48a5-9d46-21314f61036d",
+    "userId": "823ddf7b-3619-431b-89b0-b6113000fdc1",
+    "text": "make a todo app",
+    "completed": true
+  },
+  {
+    "id": "c405d086-3c26-45b2-9417-4b74c07e645f",
+    "userId": "823ddf7b-3619-431b-89b0-b6113000fdc1",
+    "text": "submit todo app",
+    "completed": false
+  },
+  {
+    "id": "93f2b828-28fa-4aed-94ba-6fd9da9a1b7f",
+    "userId": "0378958c-02b7-4f84-a56a-a56dea29f1e9",
+    "text": "hi",
+    "completed": true
+  },
+  {
+    "id": "a98704d4-d522-4c5f-9d5c-2236a3f526a3",
+    "userId": "0378958c-02b7-4f84-a56a-a56dea29f1e9",
+    "text": "hello",
+    "completed": true
+  }
+]
