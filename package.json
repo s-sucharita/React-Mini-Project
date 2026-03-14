@@ -1,0 +1,25 @@
+{
+  "name": "react-mini-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node backend/server.js",
+  "build": "vite build",
+  "deploy": "gh-pages -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/s-sucharita/React-Mini-Project.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/s-sucharita/React-Mini-Project/issues"
+  },
+  "homepage": "https://s-sucharita.github.io/React-Mini-Project",
+  "devDependencies": {
+    "gh-pages": "^6.3.0"
+  }
+}

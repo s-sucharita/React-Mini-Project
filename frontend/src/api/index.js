@@ -1,5 +1,5 @@
 import axios from "axios";
-const baseUrl = "http://localhost:8000";
+const baseUrl = "http://localhost:8001";
 
 // Get the token from localStorage
 const getToken = () => localStorage.getItem("token");
@@ -59,11 +59,14 @@ const getTodos = async (todo) => {
   }
 };
 
-const updateTodos = async (id, completed) => {
+const updateTodos = async (id, completed, text) => {
   try {
+    const updateData = {};
+    if (completed !== undefined) updateData.completed = completed;
+    if (text !== undefined) updateData.text = text;
     const response = await axios.put(
       `${baseUrl}/todos/${id}`,
-      { completed },
+      updateData,
       { headers: { Authorization: `Bearer ${getToken()}` } }
     );
     return response.data;

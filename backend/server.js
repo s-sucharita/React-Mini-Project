@@ -1,14 +1,5 @@
-/*
- * Full Node.js Auth + Todo Backend
- * Author: Abhijith T with chatgpt
- * Date: 2025-11-09
- *
- * Features:
- * - User registration & login with hashed passwords
- * - Token-based authentication
- * - CRUD todos per user
- * - Single server for both auth & todos
- */
+
+
 
 const http = require('http');
 const fs = require('fs').promises;
@@ -16,7 +7,7 @@ const path = require('path');
 const crypto = require('crypto');
 const { URL } = require('url');
 
-const PORT = 8000;
+const PORT = process.env.PORT || 8000;
 const USERS_FILE = path.join(__dirname, 'users.json');
 const TODOS_FILE = path.join(__dirname, 'todos.json');
 
